@@ -23,14 +23,14 @@
 		537CD8CB133BC179004DCCBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		537CD8CD133BC179004DCCBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		537CD8CF133BC179004DCCBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		537CD8D3133BC179004DCCBD /* NumberKeyboard-Info.plist */ = {isa = PBXFileReference; path = "NumberKeyboard-Info.plist"; sourceTree = "<group>"; };
+		537CD8D3133BC179004DCCBD /* NumberKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberKeyboard-Info.plist"; sourceTree = "<group>"; };
 		537CD8D5133BC179004DCCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		537CD8D7133BC179004DCCBD /* NumberKeyboard-Prefix.pch */ = {isa = PBXFileReference; path = "NumberKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		537CD8D7133BC179004DCCBD /* NumberKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberKeyboard-Prefix.pch"; sourceTree = "<group>"; };
 		537CD8D8133BC179004DCCBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		537CD8DA133BC179004DCCBD /* NumberKeyboardAppDelegate.h */ = {isa = PBXFileReference; path = NumberKeyboardAppDelegate.h; sourceTree = "<group>"; };
+		537CD8DA133BC179004DCCBD /* NumberKeyboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberKeyboardAppDelegate.h; sourceTree = "<group>"; };
 		537CD8DB133BC179004DCCBD /* NumberKeyboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberKeyboardAppDelegate.m; sourceTree = "<group>"; };
 		537CD8DE133BC179004DCCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		537CD8E0133BC179004DCCBD /* NumberKeyboardViewController.h */ = {isa = PBXFileReference; path = NumberKeyboardViewController.h; sourceTree = "<group>"; };
+		537CD8E0133BC179004DCCBD /* NumberKeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberKeyboardViewController.h; sourceTree = "<group>"; };
 		537CD8E1133BC179004DCCBD /* NumberKeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberKeyboardViewController.m; sourceTree = "<group>"; };
 		537CD8E4133BC179004DCCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NumberKeyboardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

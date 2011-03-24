@@ -12,6 +12,7 @@
 
 - (void)dealloc
 {
+    [numberField release];
     [super dealloc];
 }
 
@@ -25,16 +26,17 @@
 
 #pragma mark - View lifecycle
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [numberField becomeFirstResponder];
 }
-*/
 
 - (void)viewDidUnload
 {
+    [numberField release];
+    numberField = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

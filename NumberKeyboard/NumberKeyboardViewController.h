@@ -10,6 +10,7 @@
 
 @interface NumberKeyboardViewController : UIViewController {
     
+    IBOutlet UITextField *numberField;
 }
 
 @end
