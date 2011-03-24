@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537CD8CC133BC179004DCCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CD8CB133BC179004DCCBD /* UIKit.framework */; };
+		537CD8CE133BC179004DCCBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CD8CD133BC179004DCCBD /* Foundation.framework */; };
+		537CD8D0133BC179004DCCBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CD8CF133BC179004DCCBD /* CoreGraphics.framework */; };
+		537CD8D6133BC179004DCCBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 537CD8D4133BC179004DCCBD /* InfoPlist.strings */; };
+		537CD8D9133BC179004DCCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CD8D8133BC179004DCCBD /* main.m */; };
+		537CD8DC133BC179004DCCBD /* NumberKeyboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CD8DB133BC179004DCCBD /* NumberKeyboardAppDelegate.m */; };
+		537CD8DF133BC179004DCCBD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537CD8DD133BC179004DCCBD /* MainWindow.xib */; };
+		537CD8E2133BC179004DCCBD /* NumberKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CD8E1133BC179004DCCBD /* NumberKeyboardViewController.m */; };
+		537CD8E5133BC179004DCCBD /* NumberKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537CD8E3133BC179004DCCBD /* NumberKeyboardViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		537CD8C7133BC179004DCCBD /* NumberKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537CD8CB133BC179004DCCBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		537CD8CD133BC179004DCCBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		537CD8CF133BC179004DCCBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		537CD8D3133BC179004DCCBD /* NumberKeyboard-Info.plist */ = {isa = PBXFileReference; path = "NumberKeyboard-Info.plist"; sourceTree = "<group>"; };
+		537CD8D5133BC179004DCCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		537CD8D7133BC179004DCCBD /* NumberKeyboard-Prefix.pch */ = {isa = PBXFileReference; path = "NumberKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		537CD8D8133BC179004DCCBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		537CD8DA133BC179004DCCBD /* NumberKeyboardAppDelegate.h */ = {isa = PBXFileReference; path = NumberKeyboardAppDelegate.h; sourceTree = "<group>"; };
+		537CD8DB133BC179004DCCBD /* NumberKeyboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberKeyboardAppDelegate.m; sourceTree = "<group>"; };
+		537CD8DE133BC179004DCCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		537CD8E0133BC179004DCCBD /* NumberKeyboardViewController.h */ = {isa = PBXFileReference; path = NumberKeyboardViewController.h; sourceTree = "<group>"; };
+		537CD8E1133BC179004DCCBD /* NumberKeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberKeyboardViewController.m; sourceTree = "<group>"; };
+		537CD8E4133BC179004DCCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NumberKeyboardViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537CD8C4133BC179004DCCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537CD8CC133BC179004DCCBD /* UIKit.framework in Frameworks */,
+				537CD8CE133BC179004DCCBD /* Foundation.framework in Frameworks */,
+				537CD8D0133BC179004DCCBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537CD8BC133BC179004DCCBD = {
+			isa = PBXGroup;
+			children = (
+				537CD8D1133BC179004DCCBD /* NumberKeyboard */,
+				537CD8CA133BC179004DCCBD /* Frameworks */,
+				537CD8C8133BC179004DCCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		537CD8C8133BC179004DCCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537CD8C7133BC179004DCCBD /* NumberKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537CD8CA133BC179004DCCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				537CD8CB133BC179004DCCBD /* UIKit.framework */,
+				537CD8CD133BC179004DCCBD /* Foundation.framework */,
+				537CD8CF133BC179004DCCBD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		537CD8D1133BC179004DCCBD /* NumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				537CD8DA133BC179004DCCBD /* NumberKeyboardAppDelegate.h */,
+				537CD8DB133BC179004DCCBD /* NumberKeyboardAppDelegate.m */,
+				537CD8DD133BC179004DCCBD /* MainWindow.xib */,
+				537CD8E0133BC179004DCCBD /* NumberKeyboardViewController.h */,
+				537CD8E1133BC179004DCCBD /* NumberKeyboardViewController.m */,
+				537CD8E3133BC179004DCCBD /* NumberKeyboardViewController.xib */,
+				537CD8D2133BC179004DCCBD /* Supporting Files */,
+			);
+			path = NumberKeyboard;
+			sourceTree = "<group>";
+		};
+		537CD8D2133BC179004DCCBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				537CD8D3133BC179004DCCBD /* NumberKeyboard-Info.plist */,
+				537CD8D4133BC179004DCCBD /* InfoPlist.strings */,
+				537CD8D7133BC179004DCCBD /* NumberKeyboard-Prefix.pch */,
+				537CD8D8133BC179004DCCBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537CD8C6133BC179004DCCBD /* NumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537CD8E8133BC179004DCCBD /* Build configuration list for PBXNativeTarget "NumberKeyboard" */;
+			buildPhases = (
+				537CD8C3133BC179004DCCBD /* Sources */,
+				537CD8C4133BC179004DCCBD /* Frameworks */,
+				537CD8C5133BC179004DCCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberKeyboard;
+			productName = NumberKeyboard;
+			productReference = 537CD8C7133BC179004DCCBD /* NumberKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537CD8BE133BC179004DCCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Bekk Consulting";
+			};
+			buildConfigurationList = 537CD8C1133BC179004DCCBD /* Build configuration list for PBXProject "NumberKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 537CD8BC133BC179004DCCBD;
+			productRefGroup = 537CD8C8133BC179004DCCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537CD8C6133BC179004DCCBD /* NumberKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		537CD8C5133BC179004DCCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537CD8D6133BC179004DCCBD /* InfoPlist.strings in Resources */,
+				537CD8DF133BC179004DCCBD /* MainWindow.xib in Resources */,
+				537CD8E5133BC179004DCCBD /* NumberKeyboardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537CD8C3133BC179004DCCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537CD8D9133BC179004DCCBD /* main.m in Sources */,
+				537CD8DC133BC179004DCCBD /* NumberKeyboardAppDelegate.m in Sources */,
+				537CD8E2133BC179004DCCBD /* NumberKeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		537CD8D4133BC179004DCCBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537CD8D5133BC179004DCCBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		537CD8DD133BC179004DCCBD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537CD8DE133BC179004DCCBD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		537CD8E3133BC179004DCCBD /* NumberKeyboardViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537CD8E4133BC179004DCCBD /* en */,
+			);
+			name = NumberKeyboardViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537CD8E6133BC179004DCCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		537CD8E7133BC179004DCCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		537CD8E9133BC179004DCCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberKeyboard/NumberKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "NumberKeyboard/NumberKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		537CD8EA133BC179004DCCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberKeyboard/NumberKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "NumberKeyboard/NumberKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537CD8C1133BC179004DCCBD /* Build configuration list for PBXProject "NumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537CD8E6133BC179004DCCBD /* Debug */,
+				537CD8E7133BC179004DCCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537CD8E8133BC179004DCCBD /* Build configuration list for PBXNativeTarget "NumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537CD8E9133BC179004DCCBD /* Debug */,
+				537CD8EA133BC179004DCCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 537CD8BE133BC179004DCCBD /* Project object */;
+}
